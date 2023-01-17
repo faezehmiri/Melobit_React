@@ -1,8 +1,8 @@
 import './css/App.css';
-import './css/Style.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { useState, useEffect } from 'react'
-import Slider from "./components/Slider";
+import React, { useState, useEffect } from 'react'
+import Home from "./components/Home";
+
 
 
 export default function App() {
@@ -14,7 +14,7 @@ export default function App() {
   return (
 
     <div className="App">
-      <Slider/>
+      <Home />
 
     </div>
   );

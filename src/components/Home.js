@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 
 import Slider from "../components/Slider";
 import NavbarHead from "../components/NavigationBar";
-import TopTrendingArtist from "../components/TopTrendingArtist";
+import TopTrendingArtist from "../components/TrendingArtist";
 import TopWeekSong from "../components/TopWeekSong";
 import TopDaySong from "../components/TopDaySong";
 import LatestSong from "../components/LatestSong";
