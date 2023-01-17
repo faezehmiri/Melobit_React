@@ -9,7 +9,7 @@ import TopDaySong from "../components/TopDaySong";
 import LatestSong from "../components/LatestSong";
 import Player from "../components/Player";
 import Search from "../components/Search";
-import DetailsSong from "../components/DetailsSong";
+import DetailsSong from "../components/DetailesSongs";
 
 
 export default function Home() {
