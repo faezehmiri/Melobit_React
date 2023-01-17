@@ -1,0 +1,49 @@
+/* for carousel */
+.carousel-img {
+    border-radius: 20px;
+}
+
+.stream-blue {
+    width: 220px;
+}
+
+.stream-mt {
+    margin-top: 130px;
+}
+
+/* for listen now button */
+.listen-now {
+    /* position: absolute; */
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background: rgba(255, 50, 120, 0.56);
+    backdrop-filter: blur(2px);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    transform: matrix(1, 0, 0.01, 1, 0, 0);
+}
+
+.listen-now div {
+    padding: 8px;
+}
+
+.circle-play {
+    border-radius: 50%;
+    background-color: #FF0057;
+    padding: 9px;
+    filter: drop-shadow(0, 4, 4, 3);
+    box-shadow: 1px 1px 5px white inset;
+}
+
+.carousel-caption {
+    width: 80%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+
+}

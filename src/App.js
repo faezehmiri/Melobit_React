@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import './css/Style.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { useState, useEffect } from 'react'
+import Slider from "./components/Slider";
 
-function App() {
+
+export default function App() {
+
+  useEffect(() => {
+
+  })
+
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Slider/>
+
     </div>
   );
 }
-
-export default App;
