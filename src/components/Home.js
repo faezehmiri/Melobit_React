@@ -1,8 +1,8 @@
 import '../css/Player.css';
 import React, { useState, useEffect } from 'react'
 
-import SliderHead from "../components/SliderHead";
-import NavbarHead from "../components/Navbar";
+import Slider from "../components/Slider";
+import NavbarHead from "../components/NavigationBar";
 import TopTrendingArtist from "../components/TopTrendingArtist";
 import TopWeekSong from "../components/TopWeekSong";
 import TopDaySong from "../components/TopDaySong";
