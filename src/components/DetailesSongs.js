@@ -3,21 +3,21 @@ import '../css/Player.css';
 import { Container, Row } from 'react-bootstrap';
 import { BsCalendar, BsDownload, BsPlay } from "react-icons/bs";
 import { MdFavoriteBorder } from "react-icons/md";
-import Rectangle from '../images/Rectangle 7.png'
+// import Rectangle from '../images/Rectangle 7.png'
 
 
 function DetailsSong() {
     const [songs, setSongs] = useState([])
 
-    useEffect(() => {
-        const showSlider = async () => {
-            var resultSlider = await fetch('https://api-beta.melobit.com/v1/song/NThRYnA')
-                .then(response => {
-                    setSong(console.log(response.data))
-                })
-        }
-        setSong()
-    }, [])
+    // useEffect(() => {
+    //     const showSlider = async () => {
+    //         var resultSlider = await fetch('https://api-beta.melobit.com/v1/song/NThRYnA')
+    //             .then(response => {
+    //                 setSong(console.log(response.data))
+    //             })
+    //     }
+    //     setSong()
+    // }, [])
 
 
 
@@ -36,7 +36,7 @@ function DetailsSong() {
                     <img
                         // key={i}
                         className="d-block w-100 detailes-banner"
-                        src={Rectangle}
+                        src=""
                         alt="slide"
                     />
                 </div>

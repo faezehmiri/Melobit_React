@@ -1,4 +1,29 @@
-/* for carousel */
+body {
+    background-color: #001534;
+  
+}
+
+
+::-webkit-scrollbar {
+    width: 0;
+   
+    background: transparent;
+    
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    width: 10%;
+    height: 10%;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+
 .carousel-img {
     border-radius: 20px;
 }
@@ -11,14 +36,13 @@
     margin-top: 130px;
 }
 
-/* for listen now button */
+
 .listen-now {
-    /* position: absolute; */
-    width: 200px;
+    width: 110px;
     height: 50px;
     padding: 5px;
     margin-bottom: 5px;
-    background: rgba(255, 50, 120, 0.56);
+    background: #c90848;
     backdrop-filter: blur(2px);
     color: white;
     border: none;
@@ -32,13 +56,7 @@
     padding: 8px;
 }
 
-.circle-play {
-    border-radius: 50%;
-    background-color: #FF0057;
-    padding: 9px;
-    filter: drop-shadow(0, 4, 4, 3);
-    box-shadow: 1px 1px 5px white inset;
-}
+
 
 .carousel-caption {
     width: 80%;
@@ -46,4 +64,409 @@
     display: flex;
     justify-content: flex-end;
 
+}
+
+
+.melobit-icon {
+    width: 70px;
+    height: 74px;
+}
+
+
+.melobit-text {
+    width: 130px;
+    height: 80px;
+}
+
+
+.bg-cards {
+    background: linear-gradient(90.36deg, #161D35 2.78%, #33325B 97.36%);
+}
+
+.wrap-touch {
+    width: 100%;
+    overflow: auto;
+}
+
+.bg-cards-darkblue {
+    background: linear-gradient(95.98deg, rgba(198, 190, 183, 0) 2.92%, rgba(0, 0, 0, 0) 2.93%, rgba(0, 0, 0, 0.17) 49.73%, rgba(16, 16, 16, 0.1) 101.99%);
+    max-height: 255px;
+
+}
+
+
+
+.shape-back {
+    height: 256px;
+    float: left;
+    width: 380px;
+    position: relative;
+    z-index: 3;
+}
+
+.shape {
+    height: 256px;
+    float: left;
+    width: 380px;
+    position: absolute;
+    z-index: 3;
+}
+
+
+.text-show-top {
+    position: absolute;
+    display: inline;
+    z-index: 3;
+    font-size: 42px;
+    align-items: center;
+    left: 60px;
+    margin-top: 20px;
+    width: 50%;
+    
+}
+
+
+
+.img-holder-trending-artist {
+    
+    width: 250px;
+    height: 250px;
+}
+
+.img-holder-latest-song {
+    
+    width: 400px;
+    height: 400px;
+}
+
+.profile-pic {
+
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #FF0057;
+    
+}
+
+.profile-item {
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.transparent-card {
+    background-color: #001534;
+    border: none;
+    margin-top: 5px;
+}
+
+.text-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: inline;
+    position: absolute;
+    z-index: 3;
+    width: 500px;
+    
+}
+
+.figure-latest-song {
+    
+    width: 400px;
+    height: 460px;
+}
+
+.link-latest-song {
+    width: 420px;
+    height: 500px;
+}
+
+.link-small-card {
+    width: 220px;
+    height: 300px;
+}
+
+.figure-top-day-song {
+    /* display: inline; */
+    width: 200px;
+    height: 280px;
+}
+
+.space-bottom {
+    margin-bottom: 50px !important;
+}
+
+.rounded-img {
+    border-radius: 20px !important;
+}
+
+.search-icon {
+    margin-left: 50px;
+    font-size: 3rem;
+}
+
+.search-icon-btn {
+    font-size: 2rem;
+}
+
+.icon-size {
+    font-size: 1.25rem;
+}
+
+.login-btn {
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #c90848;
+    
+}
+
+.search-btn {
+    width: 60px;
+    height: 60px;
+    background-color: #c90848;
+    border: none;
+}
+
+.search-btn:hover {
+    width: 60px;
+    height: 60px;
+    background-color: #353552;
+    border: none;
+}
+
+figcaption {
+    font-family: 'Roboto';
+}
+
+.search-input {
+    background-color: #0b1c35;
+    border: none;
+    width: 50%;
+    color: white;
+
+}
+
+.search-input:hover {
+    background-color: #001534;
+    border: none;
+    width: 50%;
+
+}
+
+.search-input:focus {
+    background-color: #001534;
+    border: none;
+    outline: none !important;
+    outline: none !important;
+    border: 1px solid #001534;
+    box-shadow: 0 0 10px #001534;
+    color: white;
+
+}
+
+.search-input::placeholder {
+    color: #fdc7d9;
+}
+
+/* for details page */
+.detailes-banner {
+    filter: blur(3px);
+    background-image: url('https: //www.google.com/imgres?imgurl=https%3A%2F%2Fst2.depositphotos.com%2F1106005%2F7667%2Fi%2F950%2Fdepositphotos_76673283-stock-photo-black-and-white-music-notes.jpg&imgrefurl=https%3A%2F%2Fdepositphotos.com%2F76673283%2Fstock-photo-black-and-white-music-notes.html&tbnid=LvwDo58cJaiW6M&vet=12ahUKEwirptWVi8T8AhUB67sIHWw-CfAQMygCegUIARDBAQ..i&docid=p_3gczV0cYYCfM&w=1024&h=1024&q=music%20background%20repeated&ved=2ahUKEwirptWVi8T8AhUB67sIHWw-CfAQMygCegUIARDBAQ');
+}
+
+.music-player-card {
+    position: absolute;
+    width: 363px;
+    height: 396px;
+    right: 250px;
+    /* left: 945px; */
+    top: 236px;
+    background: rgba(217, 217, 217, 0.25);
+    border-radius: 15px;
+}
+
+.music-player-card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    padding: 10px;
+}
+
+.seekbar-box {
+    position: absolute;
+    width: 363.04px;
+    height: 190px;
+    right: 250px;
+    /* left: 945px; */
+    top: 522px;
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(12.5px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.music-rank-col {
+    position: absolute;
+    width: 363.04px;
+    height: 80px;
+    right: 250px;
+    /* left: 945px; */
+    top: 712px;
+    /* background: rgba(255, 255, 255, 0.21); */
+    backdrop-filter: blur(12.5px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.music-rank-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items:flex-end; */
+}
+
+.row-between {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.seekbar-box .song-name {
+
+    font-family: Barlow;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+.seekbar-box .artist-name {
+
+    font-family: Barlow;
+    font-size: 20px;
+    font-weight: 275;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.lyrics {
+    position: absolute;
+    width: 357px;
+    height: 200px;
+    left: 155px;
+    padding-bottom: 10px;
+    text-align: justify !important;
+    direction: rtl;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #FFFFFF;
+    overflow-y: scroll;
+    /* bottom: 10px; */
+}
+
+.lyrics p {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #FFFFFF;
+
+}
+
+.text-rank {
+    padding-left: 5px;
+}
+
+.song-details {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+}
+
+.download-btn {
+    width: max-content;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    color: white;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.21);
+    font-family: 'Kodchasan';
+}
+
+.button-container {
+
+    /* background: #000; */
+    margin-left: 0;
+}
+
+.download-quality-btn {
+    width: max-content;
+    border: none;
+    height: 40px;
+    color: white;
+    /* margin: 10px; */
+    background-color: rgba(231, 104, 148, 0.555);
+    
+}
+
+#low {
+    width: 145px;
+    border-top: #fdc7d9 solid 1px;
+    border-radius: 0 0 5px 5px;
+}
+
+#high {
+    width: 145px;
+    border-radius: 5px 5px 0 0;
 }

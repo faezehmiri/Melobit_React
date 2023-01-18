@@ -29,13 +29,10 @@ function Slider() {
     return (
         <Container>
             <Row className="justify-content-lg-center flex">
-                <Col className='col-2 p-0 '>
-                    <img src={streamblue} className='mr-0 stream-blue stream-mt' />
-                </Col>
-                <Carousel className='col-md-8 p-0' indicators={false} controls={false}>
+                <Carousel className='col-md-12 p-0' indicators={false} controls={false}>
                     {
                         sliders.map((slide, i) => (
-                            <Carousel.Item interval={3000} className=''>
+                            <Carousel.Item interval={1000} className=''>
                                 <img
                                     key={i}
                                     className="d-block w-100 carousel-img"
@@ -44,8 +41,8 @@ function Slider() {
                                 />
                                 <Carousel.Caption className=''>
                                     <button className='listen-now'>
-                                        <div>Listen now</div>
-                                        <div className='circle-play'>
+                                        <div>Play</div>
+                                        <div className=''>
                                         <BsPlayFill className='icon-size'/>
                                         </div>
                                     </button>
@@ -54,9 +51,6 @@ function Slider() {
                         ))
                     }
                 </Carousel>
-                <Col className='col-2 p-0'>
-                    <img src={streamwhite} className='stream-mt'></img>
-                </Col>
             </Row>
         </Container>
     );

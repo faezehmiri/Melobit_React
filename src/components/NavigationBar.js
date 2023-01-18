@@ -2,7 +2,7 @@ import '../css/Style.css';
 import React, { useState, useEffect } from 'react'
 import melobit from '../images/melobit.svg'
 import melobitlogo from '../images/melobitlogo.svg'
-import { AiOutlineSearch } from "react-icons/ai";
+import { BiSearchAlt } from "react-icons/bi";
 
 
 function NavbarHead() {
@@ -35,7 +35,7 @@ function NavbarHead() {
 
                 <ul className="nav navbar-nav ml-auto w-100 justify-content-end ">
                     <li className="nav-item">
-                        <AiOutlineSearch className='text-light search-icon' />
+                        <BiSearchAlt className='text-light search-icon' />
                     </li>
                     <li className="nav-item">
                         <button className='text-light login-btn' >Login</button>
