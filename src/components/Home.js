@@ -21,16 +21,15 @@ export default function Home() {
     return (
 
         <div className="">
-            <NavbarHead />
-            <DetailsSong />
-            {/* <SliderHead />
+            <SliderHead />
             <TopTrendingArtist />
             <LatestSong />
             <TopDaySong />
-            <TopWeekSong /> */}
-            {/* <Search /> */}
-            {/* <Player /> */}
+            <TopWeekSong /> 
+            <Footer />
 
         </div>
     );
 }
+
+

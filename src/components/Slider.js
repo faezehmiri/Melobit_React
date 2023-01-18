@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { Carousel, Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import streamblue from '../images/streamblue.svg'
 import streamwhite from '../images/streamwhite.svg'
-import play from '../images/play.svg'
+import { BsPlayFill } from "react-icons/bs";
 
 
 function Slider() {
@@ -20,7 +21,7 @@ function Slider() {
             })
     }
     showSlider()
-    // console.log(sliders)
+    
 
 
 
@@ -45,7 +46,7 @@ function Slider() {
                                     <button className='listen-now'>
                                         <div>Listen now</div>
                                         <div className='circle-play'>
-                                            <img src={play} className='p-1'></img>
+                                        <BsPlayFill className='icon-size'/>
                                         </div>
                                     </button>
                                 </Carousel.Caption>
