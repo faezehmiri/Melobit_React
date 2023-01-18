@@ -27,7 +27,7 @@ function Search() {
                 <InputGroup className='mt-5 mb-3 ' size='lg'>
                     <FormControl
                         className='search-input '
-                        placeholder='Search Artist'
+                        placeholder='Search Music Or Artist'
                         type='input'
                         onKeyPress={event => {
                             if (event.key == "Enter") {
