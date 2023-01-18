@@ -31,7 +31,7 @@ body {
 
 
 .listen-now {
-    width: 110px;
+    width: 160px;
     height: 50px;
     padding: 5px;
     margin-bottom: 5px;
@@ -63,6 +63,7 @@ body {
 .melobit-icon {
     width: 70px;
     height: 74px;
+    color: #FFFFFF;
 }
 
 
@@ -73,7 +74,7 @@ body {
 
 
 .bg-cards {
-    background:#444e74;
+    background:#343a558e;
 }
 
 .wrap-touch {
@@ -110,7 +111,7 @@ body {
     position: absolute;
     display: inline;
     z-index: 3;
-    font-size: 42px;
+    font-size: 40px;
     align-items: center;
     left: 60px;
     margin-top: 20px;
@@ -126,11 +127,7 @@ body {
     height: 250px;
 }
 
-.img-holder-latest-song {
-    
-    width: 400px;
-    height: 400px;
-}
+
 
 .profile-pic {
 
@@ -147,14 +144,14 @@ body {
     color: rgb(255, 255, 255);
 
 }
-.text-pink {
+.text-blue {
     font-size: 1.3rem;
-    color: rgb(0, 0, 0);
+    color: rgb(5, 128, 177);
 
 }
 
 .transparent-card {
-    background-color: #001534;
+    background-color: #021635;
     border: none;
     margin-top: 5px;
 }
@@ -171,26 +168,17 @@ body {
     
 }
 
-.figure-latest-song {
-    
-    width: 400px;
-    height: 460px;
-}
 
-.link-latest-song {
-    width: 420px;
-    height: 500px;
-}
 
 .link-small-card {
-    width: 220px;
-    height: 300px;
+    width: 150px;
+    height: 280px;
 }
 
 .figure-top-day-song {
-    /* display: inline; */
-    width: 200px;
-    height: 280px;
+    
+    width: 150px;
+    height: 200px;
 }
 
 .space-bottom {
@@ -202,6 +190,12 @@ body {
 }
 
 .search-icon {
+    width: 150px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #404852;
     margin-left: 50px;
     font-size: 3rem;
 }
@@ -247,7 +241,7 @@ figcaption {
     background-color: #333942;
     border: none;
     width: 50%;
-    color: #661f37;
+    color: #ffffff;
 
 }
 
@@ -275,37 +269,38 @@ figcaption {
 
 /* for details page */
 .detailes-banner {
-    filter: blur(3px);
+    filter: blur(1px);
     background-image: url('https: //www.google.com/imgres?imgurl=https%3A%2F%2Fst2.depositphotos.com%2F1106005%2F7667%2Fi%2F950%2Fdepositphotos_76673283-stock-photo-black-and-white-music-notes.jpg&imgrefurl=https%3A%2F%2Fdepositphotos.com%2F76673283%2Fstock-photo-black-and-white-music-notes.html&tbnid=LvwDo58cJaiW6M&vet=12ahUKEwirptWVi8T8AhUB67sIHWw-CfAQMygCegUIARDBAQ..i&docid=p_3gczV0cYYCfM&w=1024&h=1024&q=music%20background%20repeated&ved=2ahUKEwirptWVi8T8AhUB67sIHWw-CfAQMygCegUIARDBAQ');
 }
 
 .music-player-card {
     position: absolute;
-    width: 363px;
-    height: 396px;
-    right: 250px;
-    /* left: 945px; */
-    top: 236px;
-    background: rgba(217, 217, 217, 0.25);
-    border-radius: 15px;
+    width: 340px;
+    height: 340px;
+    right: 100px;
+    top: 100px;
+    background: rgba(58, 19, 121, 0.767);
+    border-radius: 150px;
 }
 
 .music-player-card img {
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
-    padding: 10px;
+    width: 100px;
+    height: 350px;
+    border-radius: 50px;
+    padding: 5px;
+    
+    
 }
 
 .seekbar-box {
     position: absolute;
-    width: 363.04px;
+    width: 340px;
     height: 190px;
-    right: 250px;
+    right: 100px;
     /* left: 945px; */
-    top: 522px;
-    background: rgba(255, 255, 255, 0.21);
-    backdrop-filter: blur(12.5px);
+    top: 450px;
+    background: rgba(255, 255, 255, 0.555);
+    backdrop-filter: blur(10px);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -317,10 +312,8 @@ figcaption {
     position: absolute;
     width: 363.04px;
     height: 80px;
-    right: 250px;
-    /* left: 945px; */
-    top: 712px;
-    /* background: rgba(255, 255, 255, 0.21); */
+    right: 80px;
+    top: 670px;
     backdrop-filter: blur(12.5px);
     border-radius: 20px;
     display: flex;
@@ -341,7 +334,6 @@ figcaption {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* align-items:flex-end; */
 }
 
 .row-between {
@@ -361,13 +353,13 @@ figcaption {
 
 .seekbar-box .song-name {
 
-    font-family: Barlow;
+    
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-left: 30px;
     margin-top: 30px;
 
@@ -375,13 +367,13 @@ figcaption {
 
 .seekbar-box .artist-name {
 
-    font-family: Barlow;
-    font-size: 20px;
+    
+    font-size: 25px;
     font-weight: 275;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    color: white;
+    color: #c90848;
     margin-left: 30px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -390,9 +382,9 @@ figcaption {
 
 .lyrics {
     position: absolute;
-    width: 357px;
+    width: 340px;
     height: 200px;
-    left: 155px;
+    left: 100px;
     padding-bottom: 10px;
     text-align: justify !important;
     direction: rtl;
@@ -401,9 +393,9 @@ figcaption {
     line-height: 21px;
     letter-spacing: 0em;
     text-align: right;
-    color: #FFFFFF;
+    color: #ffffff;
     overflow-y: scroll;
-    /* bottom: 10px; */
+    
 }
 
 .lyrics p {
@@ -413,7 +405,7 @@ figcaption {
     line-height: 21px;
     letter-spacing: 0em;
     text-align: right;
-    color: #FFFFFF;
+    color: #ffffff;
 
 }
 
@@ -431,15 +423,13 @@ figcaption {
 
 .download-btn {
     width: max-content;
-    /* margin-left: 20px;
-    margin-right: 20px; */
     border: none;
     border-radius: 20px;
     height: 40px;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 10px;
-    background-color: rgba(255, 255, 255, 0.21);
-    font-family: 'Kodchasan';
+    background-color: rgb(134, 126, 173);
+    
 }
 
 .button-container {
@@ -452,19 +442,20 @@ figcaption {
     width: max-content;
     border: none;
     height: 40px;
-    color: white;
-    /* margin: 10px; */
-    background-color: rgba(231, 104, 148, 0.555);
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(56, 52, 68, 0.856);
     
 }
 
 #low {
-    width: 145px;
-    border-top: #fdc7d9 solid 1px;
+    width: 200px;
+    border-top: #0f0c36 solid 1px;
     border-radius: 0 0 5px 5px;
+   
 }
 
 #high {
-    width: 145px;
+    width: 200px;
     border-radius: 5px 5px 0 0;
 }

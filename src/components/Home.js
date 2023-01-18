@@ -1,28 +1,23 @@
 import '../css/Player.css';
-import React, { useState, useEffect } from 'react'
-import Slider from "../components/Slider";
+import React from 'react'
+import SliderHead from "../components/Slider";
 import TopTrendingArtist from "../components/TrendingArtist";
-import Player from "../components/Player";
-import Search from "../components/Search";
-import DetailsSong from "../components/DetailesSongs";
 import TopWeekSong from "../components/TopWeekSong";
+import TopDaySong from "../components/TopDaySong"
 
 
 export default function Home() {
 
-    useEffect(() => {
-
-    })
-
     return (
-
         <div className="">
-            <Slider/>
+            <SliderHead />
+            <TopDaySong />
             <TopTrendingArtist />
-
-
+            <TopWeekSong /> 
+            
+            
+            
         </div>
     );
 }
-
 

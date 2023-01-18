@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Carousel, Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import streamblue from '../images/streamblue.svg'
-import streamwhite from '../images/streamwhite.svg'
 import { BsPlayFill } from "react-icons/bs";
 
 
@@ -40,12 +38,15 @@ function Slider() {
                                     alt="slide"
                                 />
                                 <Carousel.Caption className=''>
-                                    <button className='listen-now'>
-                                        <div>Play</div>
-                                        <div className=''>
-                                        <BsPlayFill className='icon-size'/>
-                                        </div>
-                                    </button>
+                                    <Link to={`detailsong/${slide.id}`}
+                                        className='text-decoration-none'>
+                                        <button className='listen-now'>
+                                            <div>Play Music</div>
+                                            <div className='circle-play'>
+                                                <BsPlayFill className='icon-size' />
+                                            </div>
+                                        </button>
+                                    </Link>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         ))
