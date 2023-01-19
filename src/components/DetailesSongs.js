@@ -26,7 +26,7 @@ function DetailsSong() {
         <Container>
             
             <Row className="justify-content-lg-center flex">
-                {songDetails.image && <img className='w-100 detailes-banner' src={songDetails.image.slider.url} />}
+                {songDetails.image && <img className='w-60 detailes-banner' src={songDetails.image.slider.url} />}
             </Row>
 
             <div >
@@ -47,24 +47,7 @@ function DetailsSong() {
                         }
                     </div>
                 </div>
-                <div className='music-rank-col'>
-                    <div className='text-light'>
-                        <BsCalendar />{songDetails.releaseDate && <span className='text-rank'>{songDetails.releaseDate}</span>}
-                    </div>
-
-                    <div className='music-rank-row'>
-                        <div className='text-light'>
-                            <BsPlay />{songDetails.artists && <span className='text-rank'>{songDetails.artists[0].sumSongsDownloadsCount}</span>}
-                        </div>
-                        <div className='text-light'>
-                            <BsDownload />{songDetails.downloadCount && <span className='text-rank'>{songDetails.downloadCount}</span>}
-                        </div>
-                        <div className='text-light'>
-                            <MdFavoriteBorder />{songDetails.artists && <span className='text-rank'>{songDetails.artists[0].followersCount}</span>}
-                        </div>
-                    </div>
-
-                </div>
+                
             </div>
 
             <div className='music-rank-row'>

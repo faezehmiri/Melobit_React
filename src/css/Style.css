@@ -220,22 +220,20 @@ body {
 }
 
 .search-btn {
-    width: 60px;
+    width: 100px;
     height: 60px;
     background-color: #c90848;
     border: none;
 }
 
 .search-btn:hover {
-    width: 60px;
+    width: 100px;
     height: 60px;
     background-color: #661f37;
     border: none;
 }
 
-figcaption {
-    font-family: 'Roboto';
-}
+
 
 .search-input {
     background-color: #333942;
