@@ -44,5 +44,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.22.5",
+    "@types/jest": "^29.5.2",
+    "jest": "^27.5.1"
   }
 }
